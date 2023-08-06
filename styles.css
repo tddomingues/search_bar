@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #221d21;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #f77014;
+}
+
+form {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    padding: 6px 8px;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    color: #000;
+}
+
+input::placeholder {
+    color: #8a8a8a;
+}
+
+.listMovies {
+    display: flex;
+    justify-content: center;   
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.listMovies li {
+    background-color: #433d3d;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 5px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #efeae4;
+    padding: 10px 0px 20px 0
+}
+
+p {
+    font-size: 18px;
+    color: #efeae4;
+    padding: 10px 0px 10px 0
+}
